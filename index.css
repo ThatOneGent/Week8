@@ -1,0 +1,112 @@
+
+
+/* Sitewide CSS file */
+
+body {
+    background: rgb(143, 211, 116);
+  }
+
+img {
+  border-radius: 8px;
+  height: 250px;
+  width: auto;
+  }
+  
+  div {
+    
+    align-items: center;
+    justify-content: left;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: 500;
+    color:#222;
+    letter-spacing 5px;
+    cursor: pointer;
+    text-transform:uppercase;
+    transition:0.5s;
+
+  }
+
+  h1:hover{
+    color: #fff;
+    text-shadow: 0 0 5px #f9fafa,
+      0 0 25px #ffffff,
+      0 0 50px #ffffff,
+      0 0 100px #ffffff;
+  }
+
+  h3 {
+    text-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 100px #03e9f4; 
+  }
+
+  p {
+
+
+  }
+
+  a:hover {
+
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 100px #03e9f4;
+
+
+  }
+
+  table {
+
+
+  }
+
+  tr { 
+
+
+  }
+
+  th {
+
+
+  }
+
+  td { 
+
+
+  }
+
+  form { 
+
+
+  }
+
+  input[type=checkbox] {
+
+
+  }
+
+  input[type=submit] {
+
+
+  }  
+
+  input[type=text] {
+
+
+  }
+
+  input[type=text]:focus {
+
+
+  }
+
+  label {
+
+
+  }
+  
