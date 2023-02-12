@@ -3,51 +3,79 @@
 /* Sitewide CSS file */
 
 body {
-    background: rgb(143, 211, 116);
+    background: rgb(118, 214, 79);
+    
+    
   }
 
-img {
+.imgContainer {
+  display:flex;
+}
+
+.imgContainer img {
+  padding: 2px;
   border-radius: 8px;
   height: 250px;
-  width: auto;
-  }
+  max-width: 300px;
+  object-fit: cover;
   
-  div {
-    
-    align-items: center;
-    justify-content: left;
+  transition: .3s all ease;
   }
+
+
+  .imgContainer img:hover {
+  
+    transform: scale(1.13);
+    
+  
+}
+  
 
   h1 {
     font-size: 2em;
     font-weight: 500;
     color:#222;
-    letter-spacing 5px;
-    cursor: pointer;
     text-transform:uppercase;
     transition:0.5s;
+    font-family: serif;
 
   }
 
   h1:hover{
-    color: #fff;
-    text-shadow: 0 0 5px #f9fafa,
-      0 0 25px #ffffff,
-      0 0 50px #ffffff,
-      0 0 100px #ffffff;
+ 
+    text-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 100px #03e9f4;
   }
 
   h3 {
     text-shadow: 0 0 5px #03e9f4,
       0 0 25px #03e9f4,
       0 0 50px #03e9f4,
-      0 0 100px #03e9f4; 
+      0 0 100px #03e9f4;
+      font-family: serif; 
+  }
+
+  h4 {
+    font-family: sans-serif;
+
   }
 
   p {
-
+    font-family: sans-serif;
 
   }
+
+  a:link {
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
 
   a:hover {
 
@@ -60,53 +88,75 @@ img {
 
   }
 
+  ul {
+    list-style-type:circle;
+  }
+  li {
+    font-family: sans-serif;
+
+  }
   table {
+    background-color: #aaaaaa;
+  }
 
+  table, th, td {
+    border: 1px solid;
+  }
+
+  tr:nth-child(even) { 
+    background-color: #ffffff;
 
   }
 
-  tr { 
-
-
-  }
-
-  th {
-
-
-  }
-
-  td { 
-
-
-  }
 
   form { 
-
-
-  }
-
-  input[type=checkbox] {
-
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: inline-block;
 
   }
+
 
   input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 
+  }
 
-  }  
+  input[type=submit]:hover {
+    background-color: #28772c;
+  }
 
   input[type=text] {
-
-
+    width: 100%;
+    padding: 10px 18px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
   }
 
   input[type=text]:focus {
-
+    background-color:#4caf4f4b;
 
   }
 
   label {
+  
+    font-family: sans-serif;
+    font-size: .8em;
+  }
 
-
+  #footer { 
+    padding-top: 2em;
+    text-align: center;
+    text-transform: lowercase;
   }
   
